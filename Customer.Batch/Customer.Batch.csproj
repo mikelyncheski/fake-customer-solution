@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Fake-HarrierGroupSolution\HarrierGroup\HarrierGroup.csproj">
+      <Project>{C8407F8C-16EB-4507-BDEE-DBE63996F857}</Project>
+      <Name>HarrierGroup</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
